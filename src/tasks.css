@@ -1,0 +1,101 @@
+.newTaskCard:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    transform: translateY(-5px);
+
+}
+
+.newTaskCard {
+    width: 30rem;
+    flex: 1;
+    align-self: center;
+    background-color: #495057;
+
+}
+
+.add-new-btn-container {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex: 1;
+    flex-direction: row;
+    align-self: center;
+}
+
+
+.strikethrough {
+    text-decoration: line-through;
+    text-align: left;
+    
+}
+
+.nonStrikethrough {
+    text-align: left;
+    color: #ffffff;
+}
+
+.align-checkbox-right {
+    margin-left: auto;
+}
+
+.task-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks-buttons {
+    min-width: 80px;
+    margin: 5px;
+}
+
+.navbar-margin-btm {
+    padding-bottom: 60px;
+}
+
+.tasks-container {
+    margin-bottom: 20px;
+}
+
+.add-btn {
+    margin: 10px;
+    width: 10rem;
+    background-color: #ced4da;
+    color: #000;
+}
+
+.add-btn:disabled {
+    margin: 10px;
+    width: 10rem;
+    color: #ffffff;
+    background-color: #6c757d;
+}
+.add-btn:hover {
+    margin: 10px;
+    width: 10rem;
+    color: #ffffff;
+    background-color: #6c757d;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.text-input {
+    background-color: #ced4da;
+    max-width: 15rem;
+}
+
+.new-text-input {
+    background-color: #ced4da;
+    /* max-width: 15rem; */
+}
+
+.delete-btn {
+    width: 10rem;
+
+}
+
+.button.icon-only {
+    background-color: transparent;
+    border: none;
+}
