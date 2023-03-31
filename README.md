@@ -31,7 +31,6 @@ The first command will install all the dependencies required by the app, and the
 If you want to build the app for production, run the following command:
 
 ```sh
-Copy code
 npm run build
 ```
 This will create an optimized production build of the app in the build directory.
