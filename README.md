@@ -7,7 +7,6 @@ Welcome to YoelEigner's Tasks repository! This repository contains a list of tas
 - [Installation](#installation)
 - [Usage](#usage)
 - [Building the App](#building-the-app)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -27,6 +26,15 @@ npm start
 ```
 
 The first command will install all the dependencies required by the app, and the second command will start the development server. Once the server is running, you can open your browser and go to http://localhost:3000 to view the app.
+
+# Building the App
+If you want to build the app for production, run the following command:
+
+```sh
+Copy code
+npm run build
+```
+This will create an optimized production build of the app in the build directory.
 
 # License
 This project is licensed under the MIT License. See the LICENSE file for details.
