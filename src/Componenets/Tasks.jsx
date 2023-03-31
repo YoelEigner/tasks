@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
-import { Button, Card, Container, Form, InputGroup } from "react-bootstrap";
-import { useDispatch, useSelector } from "react-redux";
-import { DeleteTask, filterItems, UpdateTask, updateTaskStatus } from "../Utils/Utils";
+import { useSelector } from "react-redux";
+import { filterItems } from "../Utils/Utils";
 import { TaskItem } from "./TaskItem";
 
 export const Tasks = () => {

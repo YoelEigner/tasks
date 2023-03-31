@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Container, Form, InputGroup } from 'react-bootstrap';
 import { useDispatch } from 'react-redux';
 import { SaveNewTask } from '../Utils/Utils';

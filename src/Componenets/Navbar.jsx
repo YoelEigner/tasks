@@ -1,10 +1,9 @@
 import { useState } from 'react';
-import { Button, Dropdown, DropdownButton, Form, FormControl } from 'react-bootstrap';
+import { Dropdown, DropdownButton, Form, FormControl } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useDispatch } from 'react-redux';
-import { onSerach, onSerachQuery, onSerachStatus } from '../Utils/Utils';
+import { onSerachQuery, onSerachStatus } from '../Utils/Utils';
 
 
 export const NavbarComp = () => {
@@ -32,7 +31,6 @@ export const NavbarComp = () => {
 
                             <div className='margin-right'>
                                 <FormControl
-                                
                                     type="search"
                                     placeholder="Type to search"
                                     className="mr-2 text-input"

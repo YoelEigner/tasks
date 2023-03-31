@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { Button, Card, Col, Container, Form, InputGroup, Row } from "react-bootstrap";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { DeleteTask, UpdateTask } from "../Utils/Utils";
 
 export const TaskItem = ({ task, tasks, editItem }) => {
@@ -54,8 +54,6 @@ export const TaskItem = ({ task, tasks, editItem }) => {
                                     </Card.Text>
                                 </Row>
                             </Col>
-
-
                             <button className="button icon-only clear" onClick={() => onTglStatus(task)}>
                                 {task?.status && "✅"}
                                 {!task?.status && "⬜"}
@@ -66,8 +64,6 @@ export const TaskItem = ({ task, tasks, editItem }) => {
                         {editable && <Button onClick={() => onDelete(task)} className="tasks-buttons delete-btn" variant="danger">Delete</Button>}
                         <Button onClick={() => onEdit()} disabled={task?.status} className="tasks-buttons add-btn" variant="dark">{!editable ? 'Edit' : 'Update'}</Button>
                     </Container>
-
-
                 </Card>
             </Container>
 

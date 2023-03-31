@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import { NewTask } from './NewTask';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
-import { DeleteAllTasks, DeleteCompletedTasks } from '../Utils/Utils';
+import { DeleteCompletedTasks } from '../Utils/Utils';
 import { NavbarComp } from './Navbar';
 import { Tasks } from './Tasks';
 
