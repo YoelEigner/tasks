@@ -30,7 +30,9 @@ export const Tasks = () => {
         <>
             {filtered.map((task, idx) => {
                 return (
-                    <TaskItem key={idx} task={task} tasks={filtered} editItem={editItem} />
+                    <div key={idx} >
+                        <TaskItem task={task} tasks={filtered} editItem={editItem} />
+                    </div>
                 )
             })}
         </>

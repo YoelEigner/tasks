@@ -5,7 +5,7 @@
 }
 
 .newTaskCard {
-    width: 30rem;
+    max-width: 400px;
     flex: 1;
     align-self: center;
     background-color: #495057;
@@ -26,7 +26,7 @@
 .strikethrough {
     text-decoration: line-through;
     text-align: left;
-    
+
 }
 
 .nonStrikethrough {
@@ -54,24 +54,31 @@
 
 .tasks-container {
     margin-bottom: 20px;
+    align-self: center;
+}
+
+.tasks-container-parent-element {
+    display: flex;
+    justify-content: center;
 }
 
 .add-btn {
     margin: 10px;
-    width: 10rem;
+    max-width: 10rem;
     background-color: #ced4da;
     color: #000;
 }
 
 .add-btn:disabled {
     margin: 10px;
-    width: 10rem;
+    max-width: 10rem;
     color: #ffffff;
     background-color: #6c757d;
 }
+
 .add-btn:hover {
     margin: 10px;
-    width: 10rem;
+    max-width: 10rem;
     color: #ffffff;
     background-color: #6c757d;
 }
@@ -91,11 +98,17 @@
 }
 
 .delete-btn {
-    width: 10rem;
+    max-width: 10rem;
 
 }
 
 .button.icon-only {
     background-color: transparent;
     border: none;
+}
+
+@media (max-width: 576px) {
+    .navbar-brand.filter {
+        display: none;
+    }
 }

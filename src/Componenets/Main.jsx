@@ -29,8 +29,9 @@ export const Main = () => {
                         <Button variant="dark" className='add-btn' onClick={handleClick}>Add New Task</Button>
                         <Button variant="dark" className='add-btn' onClick={handleRemoveClick}>Clear Completed</Button>
                     </div>
+                    {showNewTask && <NewTask setShowNewTask={(data) => { setShowNewTask(data) }} />}
+
                     <div >
-                        {showNewTask && <NewTask setShowNewTask={(data) => { setShowNewTask(data) }} />}
                         <Tasks />
                     </div>
                 </Container>

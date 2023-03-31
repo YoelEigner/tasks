@@ -61,6 +61,7 @@ export const NewTask = ({ setShowNewTask }) => {
                                 </InputGroup>
                             </Container>
                             <Button onClick={onSubmit} className='add-btn' variant="dark">Save</Button>
+                            <Button onClick={() => { setShowNewTask(false) }} className='add-btn' variant="dark">Cancel</Button>
                         </Form>
                     </Card.Body>
                 </Card>
