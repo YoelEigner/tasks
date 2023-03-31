@@ -28,5 +28,5 @@ npm start
 
 The first command will install all the dependencies required by the app, and the second command will start the development server. Once the server is running, you can open your browser and go to http://localhost:3000 to view the app.
 
-#License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
