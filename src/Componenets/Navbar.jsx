@@ -28,7 +28,6 @@ export const NavbarComp = () => {
                         <Navbar.Brand href="#home">Task Manager</Navbar.Brand>
                         <Form className="d-flex">
                             <Navbar.Brand variant="outline-secondary" >Filter</Navbar.Brand>
-
                             <div className='margin-right'>
                                 <FormControl
                                     type="search"

@@ -54,7 +54,7 @@ export const TaskItem = ({ task, tasks, editItem }) => {
                                     </Card.Text>
                                 </Row>
                             </Col>
-                            <button className="button icon-only clear" onClick={() => onTglStatus(task)}>
+                            <button className="button icon-only clear" disabled={editable} onClick={() => onTglStatus(task)}>
                                 {task?.status && "✅"}
                                 {!task?.status && "⬜"}
                             </button>
