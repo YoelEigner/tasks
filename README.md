@@ -1,6 +1,5 @@
 # YoelEigner's Tasks
 
-Welcome to YoelEigner's Tasks repository! This repository contains a list of tasks and challenges completed by YoelEigner.
 
 ## Table of Contents
 
